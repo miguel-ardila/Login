@@ -4,26 +4,29 @@
     padding: 20px;
     border-radius: 20px;
     margin: 0 auto;
-    background: linear-gradient(#bd09b6, #6b4cf5);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     color: white;
-    -webkit-box-align: 10px 10px 5px 0px rgba(0, 0, 0,0,45);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0,45);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0,45);
+-webkit-box-align: 10px 10px 5px 0px rgba(0,0,0,0.45);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
 }
 
 form {
     display: flex;
     flex-direction: column;
-    font-family: "Roboto", "sans-serif";
+    font-family: "Roboto", sans-serif;
 }
 
 h2 {
     text-align: left;
+
 }
 
 .form-group {
     margin-bottom: 20px;
+
+
 }
 
 label {
@@ -38,6 +41,7 @@ textarea {
     border-radius: 5px;
     border: none;
 }
+
 button {
     padding: 5px 15px;
     align-self: flex-end;
@@ -65,7 +69,7 @@ select {
 
 .toggle-password {
     position: relative;
-    top: -25px;
+    top: -20px;
     right: -261px;
     cursor: pointer;
     font-size: 17px;
